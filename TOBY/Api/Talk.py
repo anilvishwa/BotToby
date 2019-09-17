@@ -97,7 +97,7 @@ class Talk:
       "X-Line-Access": qr.verifier,
     })
 
-    vr = r.json()["result"]["verifier"]
+    vr = r.json()["u4b5a0f679be36bff503365b78d24c5e4"]["u4b5a0f679be36bff503365b78d24c5e4"]
     lr = self.client.loginWithVerifierForCerificate(vr)
     self.transport.setCustomHeaders({
 			"X-Line-Application" : self.LA,
